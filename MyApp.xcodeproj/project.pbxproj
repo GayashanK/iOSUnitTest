@@ -7,16 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98129CBE27AE16BD00D0B626 /* MusicTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98129CBD27AE16BD00D0B626 /* MusicTest.swift */; };
+		98129CBF27AE1B0A00D0B626 /* Music.json in Resources */ = {isa = PBXBuildFile; fileRef = 98129CBC27AE159200D0B626 /* Music.json */; };
+		98129CC127AE1DC900D0B626 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98129CC027AE1DC900D0B626 /* Music.swift */; };
+		98CD433327AE28BD00F7B065 /* MockMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD433227AE28BD00F7B065 /* MockMusicModel.swift */; };
+		98CD433B27AE452900F7B065 /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD433A27AE452900F7B065 /* MyAppUITests.swift */; };
+		98CD433D27AE452900F7B065 /* MyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD433C27AE452900F7B065 /* MyAppUITestsLaunchTests.swift */; };
 		C22FA2DC2069618F0058FCC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FA2DB2069618F0058FCC1 /* AppDelegate.swift */; };
 		C22FA2DE2069618F0058FCC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FA2DD2069618F0058FCC1 /* ViewController.swift */; };
 		C22FA2E12069618F0058FCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FA2DF2069618F0058FCC1 /* Main.storyboard */; };
 		C22FA2E32069618F0058FCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22FA2E22069618F0058FCC1 /* Assets.xcassets */; };
 		C22FA2E62069618F0058FCC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FA2E42069618F0058FCC1 /* LaunchScreen.storyboard */; };
 		C22FA2F1206961900058FCC1 /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FA2F0206961900058FCC1 /* MyAppTests.swift */; };
+		C22FA302206961D70058FCC1 /* MyAppTipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FA301206961D70058FCC1 /* MyAppTipCalcTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		98CD433E27AE452900F7B065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22FA2D02069618F0058FCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22FA2D72069618F0058FCC1;
+			remoteInfo = MyApp;
+		};
 		C22FA2ED206961900058FCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22FA2D02069618F0058FCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22FA2D72069618F0058FCC1;
+			remoteInfo = MyApp;
+		};
+		C22FA304206961D70058FCC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C22FA2D02069618F0058FCC1 /* Project object */;
 			proxyType = 1;
@@ -26,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98129CBC27AE159200D0B626 /* Music.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Music.json; sourceTree = "<group>"; };
+		98129CBD27AE16BD00D0B626 /* MusicTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTest.swift; sourceTree = "<group>"; };
+		98129CC027AE1DC900D0B626 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		98CD433227AE28BD00F7B065 /* MockMusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicModel.swift; sourceTree = "<group>"; };
+		98CD433827AE452900F7B065 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CD433A27AE452900F7B065 /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
+		98CD433C27AE452900F7B065 /* MyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C22FA2D82069618F0058FCC1 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22FA2DB2069618F0058FCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C22FA2DD2069618F0058FCC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,9 +64,19 @@
 		C22FA2EC206961900058FCC1 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22FA2F0206961900058FCC1 /* MyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTests.swift; sourceTree = "<group>"; };
 		C22FA2F2206961900058FCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22FA2FF206961D70058FCC1 /* MyAppTipCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTipCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22FA301206961D70058FCC1 /* MyAppTipCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTipCalcTests.swift; sourceTree = "<group>"; };
+		C22FA303206961D70058FCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		98CD433527AE452900F7B065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C22FA2D52069618F0058FCC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,14 +91,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C22FA2FC206961D70058FCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98CD433927AE452900F7B065 /* MyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98CD433A27AE452900F7B065 /* MyAppUITests.swift */,
+				98CD433C27AE452900F7B065 /* MyAppUITestsLaunchTests.swift */,
+			);
+			path = MyAppUITests;
+			sourceTree = "<group>";
+		};
 		C22FA2CF2069618F0058FCC1 = {
 			isa = PBXGroup;
 			children = (
 				C22FA2DA2069618F0058FCC1 /* MyApp */,
 				C22FA2EF206961900058FCC1 /* MyAppTests */,
+				C22FA300206961D70058FCC1 /* MyAppTipCalcTests */,
+				98CD433927AE452900F7B065 /* MyAppUITests */,
 				C22FA2D92069618F0058FCC1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +126,8 @@
 			children = (
 				C22FA2D82069618F0058FCC1 /* MyApp.app */,
 				C22FA2EC206961900058FCC1 /* MyAppTests.xctest */,
+				C22FA2FF206961D70058FCC1 /* MyAppTipCalcTests.xctest */,
+				98CD433827AE452900F7B065 /* MyAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +135,7 @@
 		C22FA2DA2069618F0058FCC1 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				98129CC027AE1DC900D0B626 /* Music.swift */,
 				C22FA2DB2069618F0058FCC1 /* AppDelegate.swift */,
 				C22FA2DD2069618F0058FCC1 /* ViewController.swift */,
 				C22FA2DF2069618F0058FCC1 /* Main.storyboard */,
@@ -90,15 +149,45 @@
 		C22FA2EF206961900058FCC1 /* MyAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				98129CBC27AE159200D0B626 /* Music.json */,
 				C22FA2F0206961900058FCC1 /* MyAppTests.swift */,
+				98129CBD27AE16BD00D0B626 /* MusicTest.swift */,
+				98CD433227AE28BD00F7B065 /* MockMusicModel.swift */,
 				C22FA2F2206961900058FCC1 /* Info.plist */,
 			);
 			path = MyAppTests;
 			sourceTree = "<group>";
 		};
+		C22FA300206961D70058FCC1 /* MyAppTipCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				C22FA301206961D70058FCC1 /* MyAppTipCalcTests.swift */,
+				C22FA303206961D70058FCC1 /* Info.plist */,
+			);
+			path = MyAppTipCalcTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		98CD433727AE452900F7B065 /* MyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CD434027AE452900F7B065 /* Build configuration list for PBXNativeTarget "MyAppUITests" */;
+			buildPhases = (
+				98CD433427AE452900F7B065 /* Sources */,
+				98CD433527AE452900F7B065 /* Frameworks */,
+				98CD433627AE452900F7B065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CD433F27AE452900F7B065 /* PBXTargetDependency */,
+			);
+			name = MyAppUITests;
+			productName = MyAppUITests;
+			productReference = 98CD433827AE452900F7B065 /* MyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		C22FA2D72069618F0058FCC1 /* MyApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C22FA2F5206961900058FCC1 /* Build configuration list for PBXNativeTarget "MyApp" */;
@@ -134,21 +223,49 @@
 			productReference = C22FA2EC206961900058FCC1 /* MyAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C22FA2FE206961D70058FCC1 /* MyAppTipCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22FA306206961D70058FCC1 /* Build configuration list for PBXNativeTarget "MyAppTipCalcTests" */;
+			buildPhases = (
+				C22FA2FB206961D70058FCC1 /* Sources */,
+				C22FA2FC206961D70058FCC1 /* Frameworks */,
+				C22FA2FD206961D70058FCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22FA305206961D70058FCC1 /* PBXTargetDependency */,
+			);
+			name = MyAppTipCalcTests;
+			productName = MyAppTipCalcTests;
+			productReference = C22FA2FF206961D70058FCC1 /* MyAppTipCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C22FA2D02069618F0058FCC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Bear Cahill";
 				TargetAttributes = {
+					98CD433727AE452900F7B065 = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C22FA2D72069618F0058FCC1;
+					};
 					C22FA2D72069618F0058FCC1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 					C22FA2EB206961900058FCC1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C22FA2D72069618F0058FCC1;
+					};
+					C22FA2FE206961D70058FCC1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C22FA2D72069618F0058FCC1;
@@ -170,11 +287,20 @@
 			targets = (
 				C22FA2D72069618F0058FCC1 /* MyApp */,
 				C22FA2EB206961900058FCC1 /* MyAppTests */,
+				C22FA2FE206961D70058FCC1 /* MyAppTipCalcTests */,
+				98CD433727AE452900F7B065 /* MyAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		98CD433627AE452900F7B065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C22FA2D62069618F0058FCC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,18 +315,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98129CBF27AE1B0A00D0B626 /* Music.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22FA2FD206961D70058FCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		98CD433427AE452900F7B065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CD433D27AE452900F7B065 /* MyAppUITestsLaunchTests.swift in Sources */,
+				98CD433B27AE452900F7B065 /* MyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C22FA2D42069618F0058FCC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C22FA2DE2069618F0058FCC1 /* ViewController.swift in Sources */,
 				C22FA2DC2069618F0058FCC1 /* AppDelegate.swift in Sources */,
+				98129CC127AE1DC900D0B626 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,17 +352,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CD433327AE28BD00F7B065 /* MockMusicModel.swift in Sources */,
 				C22FA2F1206961900058FCC1 /* MyAppTests.swift in Sources */,
+				98129CBE27AE16BD00D0B626 /* MusicTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22FA2FB206961D70058FCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22FA302206961D70058FCC1 /* MyAppTipCalcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		98CD433F27AE452900F7B065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22FA2D72069618F0058FCC1 /* MyApp */;
+			targetProxy = 98CD433E27AE452900F7B065 /* PBXContainerItemProxy */;
+		};
 		C22FA2EE206961900058FCC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C22FA2D72069618F0058FCC1 /* MyApp */;
 			targetProxy = C22FA2ED206961900058FCC1 /* PBXContainerItemProxy */;
+		};
+		C22FA305206961D70058FCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22FA2D72069618F0058FCC1 /* MyApp */;
+			targetProxy = C22FA304206961D70058FCC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -242,6 +406,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		98CD434127AE452900F7B065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gayashan.MyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyApp;
+			};
+			name = Debug;
+		};
+		98CD434227AE452900F7B065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gayashan.MyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyApp;
+			};
+			name = Release;
+		};
 		C22FA2F3206961900058FCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -409,9 +620,48 @@
 			};
 			name = Release;
 		};
+		C22FA307206961D70058FCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppTipCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyAppTipCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/MyApp";
+			};
+			name = Debug;
+		};
+		C22FA308206961D70058FCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppTipCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyAppTipCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/MyApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		98CD434027AE452900F7B065 /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CD434127AE452900F7B065 /* Debug */,
+				98CD434227AE452900F7B065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C22FA2D32069618F0058FCC1 /* Build configuration list for PBXProject "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -435,6 +685,15 @@
 			buildConfigurations = (
 				C22FA2F9206961900058FCC1 /* Debug */,
 				C22FA2FA206961900058FCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22FA306206961D70058FCC1 /* Build configuration list for PBXNativeTarget "MyAppTipCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22FA307206961D70058FCC1 /* Debug */,
+				C22FA308206961D70058FCC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

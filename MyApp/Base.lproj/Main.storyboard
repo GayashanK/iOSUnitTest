@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +11,56 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gfl-ZF-2lz">
+                                <rect key="frame" x="25" y="144" width="364" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="amountTF"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQP-iP-Cgo">
+                                <rect key="frame" x="25" y="259" width="364" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration" identifier="tipLbl"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1U-xa-Cyb">
+                                <rect key="frame" x="25" y="203" width="85" height="31"/>
+                                <accessibility key="accessibilityConfiguration" identifier="calcBtn"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Calculate"/>
+                                <connections>
+                                    <action selector="calcTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LuU-Kg-bxV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gfl-ZF-2lz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="1Pl-kJ-lmH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gfl-ZF-2lz" secondAttribute="trailing" constant="25" id="6UP-xt-rbd"/>
+                            <constraint firstItem="WQP-iP-Cgo" firstAttribute="top" secondItem="e1U-xa-Cyb" secondAttribute="bottom" constant="25" id="9Qn-3z-NTc"/>
+                            <constraint firstItem="WQP-iP-Cgo" firstAttribute="trailing" secondItem="gfl-ZF-2lz" secondAttribute="trailing" id="B86-8N-4yN"/>
+                            <constraint firstItem="e1U-xa-Cyb" firstAttribute="leading" secondItem="gfl-ZF-2lz" secondAttribute="leading" id="Cb2-TY-dhC"/>
+                            <constraint firstItem="gfl-ZF-2lz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Yqa-tm-fj5"/>
+                            <constraint firstItem="e1U-xa-Cyb" firstAttribute="top" secondItem="gfl-ZF-2lz" secondAttribute="bottom" constant="25" id="n6V-wq-ZEy"/>
+                            <constraint firstItem="WQP-iP-Cgo" firstAttribute="leading" secondItem="e1U-xa-Cyb" secondAttribute="leading" id="tzD-UT-uIA"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="amountTF" destination="gfl-ZF-2lz" id="dbK-oU-O1w"/>
+                        <outlet property="calcBtn" destination="e1U-xa-Cyb" id="ZbP-vC-cgh"/>
+                        <outlet property="tipLbl" destination="WQP-iP-Cgo" id="8f5-sA-INE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="35" y="98"/>
         </scene>
     </scenes>
 </document>
